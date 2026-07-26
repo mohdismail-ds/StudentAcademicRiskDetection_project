@@ -47,7 +47,7 @@ tab1, tab2, tab3 = st.tabs([
 ])
 
 # Load dataset
-df = pd.read_csv("data/Studentdata.csv")
+df = pd.read_csv("Studentdata.csv")
 df["Student_ID"] = df["Student_ID"].astype(str).str.strip()
 # Initialize session state for sidebar values
 if "attendance" not in st.session_state:
