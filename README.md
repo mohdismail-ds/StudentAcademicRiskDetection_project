@@ -9,8 +9,8 @@ This project applies a **Decision Tree classification model** to predict academi
 ## ✨ Features
 
 - **Predictive Risk Model**: Decision Tree classifier trained on attendance, backlog count, and internal marks
-- **Interactive Dashboard**: Streamlit-based web interface for instant risk-status lookup
-- **Roll-Number Lookup**: Enter any student's roll number between 1000 to 1499 to retrieve their risk status in real time
+- **Interactive Dashboard**: Streamlit-based web interface with three tabs — Student Search, Risk Analysis, and Visualizations
+- **Roll-Number Lookup**: Enter any student's roll number to retrieve their risk status in real time
 - **Data Pipeline**: Automated cleaning and preprocessing of raw academic data using Pandas
 
 ## 🛠️ Tech Stack
@@ -22,6 +22,8 @@ This project applies a **Decision Tree classification model** to predict academi
 - **Styling**: CSS
 
 ## 📁 Project Structure
+
+⚠️ **Note:** `code.py` expects `Studentdata.csv` in a `data/` folder relative to the script. If you clone this repo and run it elsewhere, either place the CSV at that path or update the `pd.read_csv()` line accordingly.
 
 ## 🚀 Getting Started
 
