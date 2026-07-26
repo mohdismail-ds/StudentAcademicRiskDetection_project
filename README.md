@@ -23,8 +23,6 @@ This project applies a **Decision Tree classification model** to predict academi
 
 ## 📁 Project Structure
 
-⚠️ **Note:** `code.py` expects `Studentdata.csv` in a `data/` folder relative to the script. If you clone this repo and run it elsewhere, either place the CSV at that path or update the `pd.read_csv()` line accordingly.
-
 ## 🚀 Getting Started
 
 ### Prerequisites
