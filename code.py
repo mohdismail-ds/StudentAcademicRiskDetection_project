@@ -3,6 +3,7 @@ import streamlit as st
 from sklearn.tree import DecisionTreeClassifier
 import plotly.express as px
 import plotly.graph_objects as go
+import os
 
 # --- HEADER SECTION ---
 st.markdown("""
@@ -47,7 +48,8 @@ tab1, tab2, tab3 = st.tabs([
 ])
 
 # Load dataset
-df = pd.read_csv("Studentdata.csv")
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+df = pd.read_csv(os.path.join(BASE_DIR, "Studentdata.csv"))
 df["Student_ID"] = df["Student_ID"].astype(str).str.strip()
 # Initialize session state for sidebar values
 if "attendance" not in st.session_state:
