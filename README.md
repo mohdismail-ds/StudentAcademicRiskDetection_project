@@ -21,30 +21,6 @@ This project applies a **Decision Tree classification model** to predict academi
 - **Dashboard**: Streamlit
 - **Styling**: CSS
 
-## 📁 Project Structure
-
-## 🚀 Getting Started
-
-### Prerequisites
-- Python 3.8+
-- pip
-
-### Installation & Run (Windows)
-
-1. Clone the repository:
-```bash
-   git clone https://github.com/mohdismail-ds/StudentAcademic_project.git
-   cd StudentAcademic_project
-```
-
-2. Double-click `run_code.bat`, or run manually:
-```bash
-   pip install -r requirements.txt
-   python -m streamlit run code.py
-```
-
-The dashboard will open automatically in your default browser.
-
 ## 📈 Model Performance
 
 | Metric | Score |
